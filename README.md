@@ -1,1 +1,0 @@
-# quotex-ai-signals1
