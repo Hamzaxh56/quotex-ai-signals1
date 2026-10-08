@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: quotex-live-free
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: DATA_PROVIDER
+        value: biquote
+      - key: POLL_MS
+        value: "3000"
