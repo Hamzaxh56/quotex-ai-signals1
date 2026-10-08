@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: quotex-ai-signals1
-    runtime: node
-    buildCommand: npm install
-    startCommand: npm start
-    envVars:
-      - key: DATA_PROVIDER
-        value: twelvedata
