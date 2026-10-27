@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: quotex-signal-analyzer-api
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: TWELVEDATA_API_KEY
+        sync: false

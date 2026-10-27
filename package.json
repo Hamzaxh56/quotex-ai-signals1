@@ -1,0 +1,8 @@
+{
+  "name": "quotex-signal-analyzer-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Render-ready market data proxy for a Quotex-style signal analyzer",
+  "scripts": {"start": "node server.js"},
+  "engines": {"node": ">=20"}
+}
